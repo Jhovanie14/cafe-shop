@@ -9,7 +9,10 @@ import Image from "next/image";
 
 export default function Collection() {
   return (
-    <section id="collection" className=" flex-1 container mx-auto mb-32 lg:mb-44">
+    <section
+      id="collection"
+      className=" flex-1 container mx-auto mb-32 lg:mb-44"
+    >
       <div className="max-w-7xl mx-auto px-8">
         <div className="flex flex-col items-center justify-center space-y-8 mb-8 lg:mb-24">
           <span className="max-w-5xl text-5xl text-center text-zinc-800 font-open-sans font-semibold">
@@ -30,7 +33,7 @@ export default function Collection() {
               alt="Coffee"
               width={500}
               height={500}
-              className="border border-zinc-400 object-contain rounded-2xl"
+              className="border border-zinc-400 w-full object-contain rounded-2xl"
             />
           </CardHeader>
           <CardContent className="text-center space-y-3">
@@ -41,11 +44,16 @@ export default function Collection() {
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
             </p>
           </CardContent>
-          <CardFooter className=" p-5 flex items-center justify-between px-24">
+          <CardFooter className="pb-5 flex items-center justify-around md:px-8 lg:px-16">
             <p className="text-xl font-open-sans font-medium text-amber-600">
               $8.00
             </p>
-            <Button className="font-open-sans text-xl rounded-none" size="lg">Order Now</Button>
+            <Button
+              className="font-open-sans text-lg md:text-xl rounded-none"
+              size="lg"
+            >
+              Order Now
+            </Button>
           </CardFooter>
         </Card>
         <Card className="bg-white/70 p-0 bg-card-0 shadow-none">
@@ -55,7 +63,7 @@ export default function Collection() {
               alt="Coffee"
               width={500}
               height={500}
-              className="border border-zinc-400 object-contain rounded-2xl"
+              className="border border-zinc-400 w-full object-contain rounded-2xl"
             />
           </CardHeader>
           <CardContent className="text-center space-y-3">
@@ -66,11 +74,16 @@ export default function Collection() {
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
             </p>
           </CardContent>
-          <CardFooter className=" p-5 flex items-center justify-between px-24">
+          <CardFooter className="pb-5 flex items-center justify-around md:px-8 lg:px-16">
             <p className="text-xl font-open-sans font-medium text-amber-600">
               $8.00
             </p>
-            <Button className="font-open-sans text-xl rounded-none" size="lg">Order Now</Button>
+            <Button
+              className="font-open-sans text-lg md:text-xl rounded-none"
+              size="lg"
+            >
+              Order Now
+            </Button>
           </CardFooter>
         </Card>
         <Card className="bg-white/70 p-0 bg-card-0 shadow-none">
@@ -80,7 +93,7 @@ export default function Collection() {
               alt="Coffee"
               width={500}
               height={500}
-              className="border border-zinc-400 object-contain rounded-2xl"
+              className="border border-zinc-400 w-full object-contain rounded-2xl"
             />
           </CardHeader>
           <CardContent className="text-center space-y-3">
@@ -91,11 +104,16 @@ export default function Collection() {
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
             </p>
           </CardContent>
-          <CardFooter className=" p-5 flex items-center justify-between px-24">
+          <CardFooter className="pb-5 flex items-center justify-around md:px-8 lg:px-16">
             <p className="text-xl font-open-sans font-medium text-amber-600">
               $8.00
             </p>
-            <Button className="font-open-sans text-xl rounded-none" size="lg">Order Now</Button>
+            <Button
+              className="font-open-sans text-lg md:text-xl rounded-none"
+              size="lg"
+            >
+              Order Now
+            </Button>
           </CardFooter>
         </Card>
       </div>
